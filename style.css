@@ -164,3 +164,15 @@ aside .noticia {
         color: rgb(0, 4, 255);
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .conteudo {
+        max-width: 90%;        
+    }
+    .destaque .noticia a {
+        font-size: 1.5em;
+    }
+    .noticias {
+        grid-template-columns: repeat(2, 49%);        
+    }
+}
